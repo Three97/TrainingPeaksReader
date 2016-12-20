@@ -9,6 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{4B39AAB9-8C14-414E-9E02-4A26855891AB}"
 	ProjectSection(SolutionItems) = preProject
+		CsvFileColumnMappings.txt = CsvFileColumnMappings.txt
 		SolutionSettings.StyleCop = SolutionSettings.StyleCop
 	EndProjectSection
 EndProject

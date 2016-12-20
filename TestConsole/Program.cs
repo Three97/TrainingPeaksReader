@@ -1,15 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+using FinalSurge;
 
 namespace TestConsole
 {
-    using System.IO;
-
-    using FinalSurge;
-
     class Program
     {
         static void Main(string[] args)
