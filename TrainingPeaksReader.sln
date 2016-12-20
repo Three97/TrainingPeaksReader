@@ -5,6 +5,20 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingPeaksReader", "TrainingPeaksReader\TrainingPeaksReader.csproj", "{41005780-49BA-4032-ABB5-E346B89F3D5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{FF2CCA96-949D-44DA-9362-3CC71713934F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{4B39AAB9-8C14-414E-9E02-4A26855891AB}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionSettings.StyleCop = SolutionSettings.StyleCop
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestData", "TestData", "{D26D7BFE-A166-4708-B525-8806E7751750}"
+	ProjectSection(SolutionItems) = preProject
+		TestData\Harvey-Emily-workouts.csv = TestData\Harvey-Emily-workouts.csv
+		TestData\Jamie-Brown-workouts.csv = TestData\Jamie-Brown-workouts.csv
+		TestData\Mark-Turner-workouts.csv = TestData\Mark-Turner-workouts.csv
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +29,10 @@ Global
 		{41005780-49BA-4032-ABB5-E346B89F3D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41005780-49BA-4032-ABB5-E346B89F3D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41005780-49BA-4032-ABB5-E346B89F3D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF2CCA96-949D-44DA-9362-3CC71713934F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF2CCA96-949D-44DA-9362-3CC71713934F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF2CCA96-949D-44DA-9362-3CC71713934F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF2CCA96-949D-44DA-9362-3CC71713934F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
